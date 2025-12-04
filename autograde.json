@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "FCFS Level 1 – Basic",
+      "run": "gcc fcfs.c -o fcfs && ./fcfs < tests/input1.txt",
+      "input": "",
+      "output": "tests/output1.txt",
+      "comparison": "included",
+      "timeout": 200000,
+      "visibility": "visible",
+      "points": 10
+    },
+    {
+      "name": "FCFS Level 2 – Standard Case",
+      "run": "gcc fcfs.c -o fcfs && ./fcfs < tests/input2.txt",
+      "input": "",
+      "output": "tests/output2.txt",
+      "comparison": "included",
+      "timeout": 200000,
+      "visibility": "visible",
+      "points": 15
+    },
+    {
+      "name": "FCFS Level 3 – Sorting Required",
+      "run": "gcc fcfs.c -o fcfs && ./fcfs < tests/input3.txt",
+      "input": "",
+      "output": "tests/output3.txt",
+      "comparison": "included",
+      "timeout": 200000,
+      "visibility": "visible",
+      "points": 20
+    },
+    {
+      "name": "FCFS Level 4 – Large Case",
+      "run": "gcc fcfs.c -o fcfs && ./fcfs < tests/input4.txt",
+      "input": "",
+      "output": "tests/output4.txt",
+      "comparison": "included",
+      "timeout": 200000,
+      "visibility": "hidden",
+      "points": 25
+    },
+    {
+      "name": "FCFS Level 5 – Edge Cases",
+      "run": "gcc fcfs.c -o fcfs && ./fcfs < tests/input5.txt",
+      "input": "",
+      "output": "tests/output5.txt",
+      "comparison": "included",
+      "timeout": 200000,
+      "visibility": "hidden",
+      "points": 30
+    }
+  ]
+}
